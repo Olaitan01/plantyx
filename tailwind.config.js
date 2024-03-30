@@ -6,6 +6,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    
     colors:{
       'gray':'rgb(207,207,207)',
       'black':'rgb(0,0,0)',

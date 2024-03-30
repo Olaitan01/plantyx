@@ -68,7 +68,7 @@ function Steps() {
               />
             </div>
 
-            <figcaption className="bg-[rgb(237,237,237)] text-[#000000]  overflow-hidden flex justify-between items-center sm:items-end px-8  w-full h-40 absolute bottom-10  sm:h-80 sm:top-40 sm:relative    ">
+            <figcaption className="bg-[rgb(237,237,237)] text-[#000000]   overflow-hidden flex justify-between items-center sm:items-end px-2 sm:px-8  w-full h-40 absolute bottom-10  sm:h-80 sm:top-40 sm:relative    ">
               <span className="text-sm font-semibold block sm:-translate-y-12">
                 {image.stepCount}
               </span>
