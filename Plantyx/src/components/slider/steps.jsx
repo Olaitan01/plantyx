@@ -60,27 +60,22 @@ function Steps() {
             key={image.id}
             className="object-fit m-auto w-80 mySwiper "
           >
-            <div className="z-[999] relative sm:absolute">
+            <div className="z-[999] relative sm:absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2  ">
               <img
                 src={image.stepImage}
                 alt={image.altText}
-                className="w-80 h-60 m-auto object-cover sm:w-[100%] sm:h-[50vh] sm:translate-x-80"
+                className="w-80  h-60 m-auto object-cover md:w-[100%] sm:w-full  md:h-[50vh]  lg:w-[100%]  "
               />
             </div>
 
-            <figcaption className="bg-[rgb(237,237,237)] text-[#000000] overflow-hidden flex gap-8 items-center sm:items-end p-2  w-full h-40 absolute bottom-10 sm:h-80 sm:top-40 sm:relative sm:gap-[40em] ">
+            <figcaption className="bg-[rgb(237,237,237)] text-[#000000]  overflow-hidden flex justify-between items-center sm:items-end px-8  w-full h-40 absolute bottom-10  sm:h-80 sm:top-40 sm:relative    ">
               <span className="text-sm font-semibold block sm:-translate-y-12">
                 {image.stepCount}
               </span>
-              <span className="text-sm block swiperPagination font-semilight sm:-translate-y-12 sm:font-semibold sm:text-lg ">
+              <span className="text-sm block swiperPagination font-semilight sm:-translate-y-12 sm:font-semibold sm:text-lg  ">
                 {image.stepInfo}
               </span>
-            </figcaption>
-          </SwiperSlide>
-        ))}
-      </div>
-
-      <div className=" flex gap-5 absolute top-[17rem] right-6 z-10 sm:top-[25rem]">
+              <div className=" flex justify-center gap-4  sm:-translate-y-12 ">
         <div className="button-prev cursor-pointer" ref={prevButtonRef}>
           <svg
             width="18"
@@ -126,6 +121,12 @@ function Steps() {
           </svg>
         </div>
       </div>
+            </figcaption>
+          </SwiperSlide>
+        ))}
+      </div>
+
+      
     </Swiper>
   );
 }
