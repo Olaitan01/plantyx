@@ -3,16 +3,16 @@ function Introduction() {
     <div>
       <div>
        <div className="sm:flex sm:items-center sm:w-full sm:gap-10 sm:py-6 ">
-       <p className="m-auto text-center text-[0.8rem] font-extralight leading-5 p-4 w-80 sm:text-left sm:text-[1rem] sm:leading-6 sm:w-[25%] sm:m-0">
+       <p className="m-auto text-center text-[0.8rem] font-extralight leading-5 p-4 w-80 sm:text-left sm:text-[1rem] sm:leading-6 sm:w-[50%] md:w-[25%] sm:m-0">
           Each houseplant set is handled quickly and safely before being sent to
           your destination in specially designed insulated packaging.
         </p>
-        <p className="text-lg text-center font-semibold w-80 m-auto leading-6 sm:text-left sm:text-[1.6rem] sm:leading-6 sm:w-[30%] sm:items-start sm:font-[400] sm:m-0">
+        <p className="text-lg text-center font-semibold w-80 m-auto leading-6 sm:text-left sm:text-[1.6rem] sm:leading-6 sm:w-[40%] md:w-[30%] sm:items-start sm:font-[400] sm:m-0">
           Learn how to take care of your plant at every stage of its journey
           from our greenhouse to your home.
         </p>
        </div>
-        <button className="flex gap-5 mx-auto mt-6  text-xs font-semibold items-center pb-4 sm:my-5 sm:mb-16 sm:text-lg
+        <button className="flex gap-5 mx-auto my-6  text-xs font-semibold items-center pb-4 md:my-5  sm:text-lg
         ">
           LEARN MORE
           <svg

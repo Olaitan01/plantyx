@@ -64,7 +64,7 @@ function Steps() {
               <img
                 src={image.stepImage}
                 alt={image.altText}
-                className="w-80  h-60 m-auto object-cover md:w-[100%] sm:w-full  md:h-[50vh]  lg:w-[100%]  "
+                className="w-80  h-60 m-auto object-cover md:w-[100%] sm:w-full  sm:h-60    "
               />
             </div>
 

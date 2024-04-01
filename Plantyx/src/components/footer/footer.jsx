@@ -2,20 +2,20 @@ import logo from "../../assets/desktop/Planty-Logo.jpg";
 
 function Footer() {
   return (
-    <div className="sm:w-full  sm:py-10 sm:bg-[#f3f3f3]">
+    <div className="md:w-full  md:py-10 md:bg-[#f3f3f3]">
      
       
 
-    <div className="flex flex-col justify-center sm:flex-row sm:justify-between sm:items-center  sm:py-6 sm:w-[88%] sm:m-auto">
-    <div className="m-auto sm:m-0">
+    <div className="flex flex-col justify-center md:flex-row md:justify-between md:items-center  md:py-6 md:w-[88%] md:m-auto">
+    <div className="m-auto md:m-0">
         <img
           src={logo}
           alt="planty'x logo"
-          className="w-[120px] py-4 object-cover sm:py-0"
+          className="w-[120px] py-4 object-cover md:py-0"
         />
       </div>
-      <div className="w-80 m-auto pb-6 sm:m-0 sm:pb-0">
-        <ul className="flex flex-col gap-6 text-center py-2 sm:flex-row">
+      <div className="w-80 m-auto pb-6 md:m-0 md:pb-0">
+        <ul className="flex flex-col gap-6 text-center py-2 md:flex-row">
           <li className="font-light text-lg">Help</li>
           <li className="font-light text-lg">Contact Us</li>
           <li className="font-light text-lg">Privacy & Terms</li>

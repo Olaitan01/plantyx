@@ -5,22 +5,22 @@ function Review() {
 //   const nextButtonRef = useRef(null);
 
   return (
-    <div className="flex flex-col py-6 relative sm:flex-row sm:items-center sm:px-8 sm:justify-between ">
-      <div className="text-center sm:text-left">
+    <div className="flex flex-col py-6 relative  md:flex-row  md:items-center md:px-8 md:justify-between ">
+      <div className="text-center  md:text-left">
         <h2 className="font-semibold ">REVIEWS</h2>
-        <p className="font-light py-4 text-sm w-60 m-auto sm:text-left sm:text-[1.3rem] sm:leading-6 sm:w-80 sm:self-start">
+        <p className="font-light py-4 text-sm w-60 m-auto md:text-left sm:text-[1.3rem] md:leading-6 md:w-80 md:self-start">
           Shop with confidance by reading customer reviews given by individuals
           who have used Bioomey. Excelient quality and streamlined service are
           both offered here.
         </p>
-        <div className="flex align-center gap-4 justify-center object-fit sm:justify-start">
+        <div className="flex align-center gap-4 justify-center object-fit md:justify-start">
           <img src={stars} alt="5 star review" className="w-24 " />
           <span className="text-[#000000] font-semibold text-sm">5/5</span>
         </div>
-        <p className="hidden sm:block">2,479 reviews</p>
+        <p className="hidden md:block">2,479 reviews</p>
       </div>
-      <div className="p-3  w-90 m-auto sm:w-[50%]">
-        <p className="text-center font-bold pb-12 sm:w-[80%] sm:text-[1.2rem] sm:text-left  ">
+      <div className="p-3  w-90 m-auto md:w-[50%]">
+        <p className="text-center font-bold pb-12 md:w-[80%] md:text-[1.2rem] md:text-left  ">
           We adore all our friends at Bloomey, especially the beauties who have
           come to live with us! Great advice when needed, beautifully and safely
           packaged. Highly recommend, it&apos;s just the best place for healthy
@@ -30,7 +30,7 @@ function Review() {
         <p className="font-semilight text-sm pl-3 pt-2">Lake Forest, CA</p>
       </div>
 
-      <div className=" flex gap-4 absolute bottom-11 right-5 z-999 sm:static sm:top-auto sm:left-auto sm:self-start ">
+      <div className=" flex gap-4 absolute bottom-11 right-5 z-999 md:static md:top-auto md:left-auto md:self-start ">
         <div className="button-prev" >
           <svg
             width="35"

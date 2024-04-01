@@ -83,30 +83,30 @@ function Header() {
           </button>
         </div>
       </div>
-      <div className="flex gap-1 sm:w-full sm:justify-between items-start py-4">
+      <div className="flex  gap-1 md:w-full md:gap-8 justify-between items-start py-4">
         <div className="pl-4 ">
-          <h1 className="font-semibold text-lg py-4 sm:text-[5rem] sm:leading-[5rem] sm:pt-14 ">
+          <h1 className="font-semibold text-lg py-4 sm:py-2 sm:text-[3.5rem] sm:leading-[3rem] lg:text-[5rem] md:leading-[5rem] md:pt-14 ">
             Best house <br /> plants varieties.
           </h1>
-          <p className="text-xs font-semibold leading-5 pb-2 sm:text-[1.5rem] sm:leading-8  sm:w-80 sm:py-4 ">
+          <p className="text-xs font-semibold leading-5 pb-2 md:text-[1.5rem] md:leading-8  md:w-80 sm:py-4 ">
             Beautiful living greenery homes and offices
           </p>
-          <p className="text-[0.58rem] font-[400] text-gray pb-2 sm:text-[1.2rem] sm:pb-8">
+          <p className="text-[0.58rem] font-[400] text-gray pb-2 md:text-[1.2rem] md:pb-8">
             
             we&apos;ve been mentioned in the press
           </p>
-          <button className="bg-black py-1 px-4 text-center text-white text-[0.6rem] font-[400] rounded-full border-none mb-4 sm:text-lg sm:mb-14">
+          <button className="bg-black py-1 px-4 text-center text-white text-[0.6rem] font-[400] rounded-full border-none mb-4 md:text-lg md:mb-14">
             Shop now
           </button>
 
-          <div className="flex justify-between items-center">
-            <img className="w-20 block sm:w-40 object-cover" src={bloomberg} alt="Bloomberg" />
-            <img className="w-20 block sm:w-40 object-cover" src={forbes} alt="Forbes" />
+          <div className="flex justify-between items-center sm:w-[80%]">
+            <img className="w-20 block lg:w-40  object-cover" src={bloomberg} alt="Bloomberg" />
+            <img className="w-20 block lg:w-40 object-cover" src={forbes} alt="Forbes" />
           </div>
         </div>
         <div >
           <img
-            className="w-60 sm:w-[700px] sm:object-fill sm:h-[80vh] "
+            className="w-60 md:w-[700px] sm:object-fill md:h-[80vh] h-auto "
             src={unsplash}
             alt="Two plant vases with green plants"
           />
